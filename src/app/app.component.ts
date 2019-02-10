@@ -10,4 +10,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
     emoji = ['😀', '😝', '😎', '😡'];
+    activeEmoji: string;
+    changeEmoji() {
+        this.activeEmoji = this.emoji[Math.floor(Math.random() * this.emoji.length)];
+    }
 }
