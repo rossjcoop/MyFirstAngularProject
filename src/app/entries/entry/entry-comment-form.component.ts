@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
 
 })
 export class EntryCommentFormComponent {
+    name: string = "";
+    comment: string = "";
+
+    onSubmit() {
+        debugger;
+    }
+
 
 }
